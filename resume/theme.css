@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(255, 226, 231);
+}
+
+h1 {
+    color:palevioletred;
+    font-size:48px;
+    font-family:'Futura', serif;
+}
+
+h4 {
+    color: rgb(10, 163, 163);
+    font-size: 18px;
+    font-family: 'Futura'
+}
+
+li {
+    color:#0a0a0a;
+    font-size: 16px;
+    font-family: 'Futura', serif;
+    padding: 5px;
+}
+
+p {
+    color:#0a0a0a;
+    font-size:14px;
+    font-family:'Futura', serif;
+}
+
+.categories {
+    color: rgb(10, 163, 163);
+    font-family: 'Helvetica-Bold', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.info {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.header {
+    font-family: 'Futura';
+    font-variant: small-caps;
+    background-color: rgb(255, 226, 231);
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.contact {
+    font-family: 'Futura';
+    font-size: 14px;
+    color: palevioletred;
+    text-align: right;
+}
+
+.bio {
+    font-family: 'Futura';
+    font-size: 18px;
+    color:#0a0a0a;
+    text-align: center;
+    padding: 15px;
+}
+
+.titles {
+    font-family: 'Futura';
+    font-size: 20px;
+    color:rgb(10, 163, 163);
+    margin: 15px;
+}
+
+.topics {
+    color:palevioletred;
+    font-size: 30px;
+    font-family:'Futura', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+    
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: 5em;
+  }
+  
+  .column1 {
+    height: 65em;
+  }
+  
+  .column2 {
+    height: 65em;
+  }
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .column {
+      flex: 1
+    }
+  
+    .double-column {
+      flex: 2
+    }
+  }
+  
